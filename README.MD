@@ -41,4 +41,4 @@
 - [ ] Heb ik mijn bestanden geüpload naar **GitHub Pages**?
 - [ ] Heb ik de link naar mijn website gedeeld met mijn docent?
 - [ ] Heb ik mijn code geupload in ZIP?
-- [ ] Heb ik mijn publieke figma gedeeld met mijn docent?
+- [ ] Heb ik mijn publieke figma gedeeld met mijn docent?# website_pisic

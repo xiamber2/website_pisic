@@ -120,7 +120,7 @@ nav {
 }
 
 .header-p {
-    background-image: url(/assets/bg_header.webp);
+    background-image: url(./assets/bg_header.webp);
     background-size: cover;
 
     color: var(--primaryc);
