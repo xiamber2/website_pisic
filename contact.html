@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact Pisic</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/logo.webp" alt="Pisic logo">
+                </a>
+            </div>
+
+            <div class="hamburger-menu">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon"><img src="assets/hamburger.webp" alt="hamburger"></label>
+
+                <div class="menu-links">
+                    <ul>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="menu-overlay"></div>
+
+            </div>
+        </nav>
+
+        <div class="header-contact">
+            <img src="assets/bg_contact.webp" alt="bg-image-contact">
+            <h1>Reach to us</h1>
+
+            <div class="vert-line"></div>
+        </div>
+    </header>
+    <main>
+        <section id="safety-health">
+            <h2>Safety & Health Issues</h2>
+            <p>If something in Pisic felt unsafe or triggered discomfort, tell us immediatly. These reports are treated with priority.</p>
+        </section>
+
+        <section id="technical-support">
+            <h2>Technical Support</h2>
+            <a href="#">App not working</a>
+            <a href="#">Account issues</a>
+            <a href="#">Subscription problems</a>
+        </section>
+
+        <section id="feedback">
+            <h2>Feedback & Suggestions</h2>
+            <p>Feedback helps us improve safety and usability. We read everything. Not everything will be implemented.</p>
+        </section>
+
+        <div class="hor-line"></div>
+        <section id="contacting">
+            <div>
+                <h2>Get in touch</h2>
+            <p>Email: support@pisic.com</p>
+            <p>Phone: +1 800 123 4567</p>
+            </div>
+
+            <form action="contact">
+                <div class="name-mail">
+                    <div class="name">
+                        <label for="name"></label>
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+                    </div>
+
+                    <div class="mail">
+                        <label for="mail"></label>
+                        <input type="email" name="mail" id="mail" placeholder="E-mail" required>
+                    </div>
+                </div>
+
+                <div class="message">
+                    <label for="message"></label>
+                    <textarea name="message" id="message" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="category">
+                    <label for="category"></label>
+
+                    <div class="select-wrap">
+                        <select name="category" id="category" required>
+                            <option value="" selected disabled>Category</option>
+                            <option value="Technical">Technical issue</option>
+                            <option value="Safety">Safety or health concern</option>
+                            <option value="Subscription">Subscription or billing</option>
+                            <option value="Account">Account or settings</option>
+                            <option value="Feedback">Feedback or suggestion</option>
+                            <option value="Something-else">Something else</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="send-btn">Send</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-home">
+
+            <div class="sm-info">
+                <img src="assets/logo.webp" alt="Logo">
+                <p>Your music, your way. Stream without limits.</p>
+            </div>
+
+            <div class="legal">
+                <h3>Legal</h3>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+
+            <div class="socials">
+                <h3>Follow Us</h3>
+                <a href="#"><img src="assets/facebook.webp" alt="facebook"></a>
+                <a href="#"><img src="assets/x.webp" alt="x"></a>
+                <a href="#"><img src="assets/instagram.webp" alt="instagram"></a>
+                <a href="#"><img src="assets/tiktok.webp" alt="tiktok"></a>
+            </div>
+
+            <div class="contact">
+                <h3>Contact</h3>
+                <p>Email: support@pisic.com</p>
+                <p>Phone: <span>+1 800 123 4567</span></p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>© 2025 Pisic. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
